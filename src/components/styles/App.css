@@ -1,17 +1,75 @@
-/* Aca van los estilos para cosas que se generan en APP.JSX */
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
 
-.fa-solid{
-    padding-top: 20px;
-    padding-left: 20px;
-    color: white;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.cardBody{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20vh;
+
+
+.btnProducto {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
 }
 
-.carrito{position: relative; width: 24px; height: 24px;  padding-right: 1rem;}
-  .carrito #cant_items{position: absolute; background-color: rgb(255, 0, 0); border-radius: 50%; padding: 4px; right: -.5rem; top:-1rem; 
+.btnProducto:hover,
+.btnProducto:focus {
+  opacity: .75;
+}
+
+.tittle {
+  font-size: 25px;
+  font-family: 'Peralta', cursive;
+  font-weight: 200;
+}
+
+.footer {
+  height: 250px;
+  background-color: black;
+}
+
+.listStyle ul {
+  list-style-type: none;
+  color: #fff;
+  text-align: center;
+}
+
+.footer {
+  height: 200px;
+  background-color: black;
+  color: #fff;
+}
+
+.footer h4 {
+  color: #fff;
+  font-family: 'Peralta', cursive;
+}
+
+.footer ul {
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }

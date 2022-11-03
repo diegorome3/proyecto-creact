@@ -1,0 +1,187 @@
+[
+    {
+        "id": 1,
+        "idCategoria": "bicicletas",
+        "descuento": "ofertas",
+        "nombre": "Venzo",
+        "marca": "Primal",
+        "precio": 95000,
+        "precioOferta": 80000,
+        "stock": 10,
+        "img": "venzo-primal.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": "bicicletas",
+        "descuento": "ofertas",
+        "nombre": "Zenith",
+        "marca": "Calea",
+        "precio": 259900,
+        "precioOferta": 220500,
+        "stock": 5,
+        "img": "zenith-calea.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "bicicletas",
+        "descuento": "ofertas",
+        "nombre": "Firebird",
+        "marca": "Adventure",
+        "precio": 67000,
+        "precioOferta": 55000,
+        "stock": 20,
+        "img": "firebird.jpg"
+    },
+    {
+        "id": 4,
+        "idCategoria": "bicicletas",
+        "nombre": "Vairo",
+        "marca": "XR 3.5",
+        "precio": 150000,
+        "stock": 5,
+        "img": "vairo-xr.jpg"
+    },
+    {
+        "id": 5,
+        "idCategoria": "bicicletas",
+        "nombre": "Zenith",
+        "marca": "Andes",
+        "precio": 180000,
+        "stock": 15,
+        "img": "zenith-andes.jpg"
+    },
+    {
+        "id": 6,
+        "idCategoria": "indumentaria",
+        "nombre": "Casco",
+        "marca": "Lazer - color negro",
+        "precio": 27000,
+        "stock": 11,
+        "img": "casco-lazer-negro.jpg"
+    },
+    {
+        "id": 7,
+        "idCategoria": "indumentaria",
+        "nombre": "Casco",
+        "marca": "Lazer - color azul",
+        "precio": 18900,
+        "stock": 18,
+        "img": "casco-lazer-azul.jpg"
+    },
+    {
+        "id": 8,
+        "idCategoria": "indumentaria",
+        "nombre": "Casco",
+        "marca": "Lazer - color blanco",
+        "precio": 17500,
+        "stock": 7,
+        "img": "casco-lazer-blanco.jpg"
+    },
+    {
+        "id": 9,
+        "idCategoria": "indumentaria",
+        "marca": "oakley",
+        "precio": 33000,
+        "stock": 21,
+        "img": "gafas-oakley.jpg"
+    },
+    {
+        "id": 10,
+        "idCategoria": "indumentaria",
+        "nombre": "Guantes",
+        "marca": "Seven",
+        "precio": 6900,
+        "stock": 5,
+        "img": "guantes-seven.jpg"
+    },
+    {
+        "id": 11,
+        "idCategoria": "indumentaria",
+        "nombre": "Zapatillas",
+        "marca": "Metha",
+        "precio": 20700,
+        "stock": 8,
+        "img": "zapatillas-metha.jpg"
+    },
+    {
+        "id": 12,
+        "idCategoria": "indumentaria",
+        "nombre": "Remera",
+        "marca": "Ziroox",
+        "precio": 8490,
+        "stock": 6,
+        "img": "remera-ziroox.jpg"
+    },
+    {
+        "id": 13,
+        "idCategoria": "accesorios",
+        "nombre": "Pedales",
+        "marca": "Shimano",
+        "precio": 18490,
+        "stock": 15,
+        "img": "pedales-shimano.jpg"
+    },
+    {
+        "id": 14,
+        "idCategoria": "accesorios",
+        "nombre": "Inflador",
+        "marca": "Giyo",
+        "precio": 1290,
+        "stock": 7,
+        "img": "inflador.jpg"
+    },
+    {
+        "id": 15,
+        "idCategoria": "accesorios",
+        "nombre": "Linterna",
+        "marca": "Van Halen",
+        "precio": 11690,
+        "stock": 10,
+        "img": "linterna.jpg"
+    },
+    {
+        "id": 16,
+        "idCategoria": "accesorios",
+        "nombre": "Pedales",
+        "marca": "Shimano",
+        "precio": 18490,
+        "stock": 15,
+        "img": "pedales-shimano.jpg"
+    },
+    {
+        "id": 17,
+        "idCategoria": "accesorios",
+        "nombre": "Llaves Allen",
+        "marca": "Mtb/Ruta x9",
+        "precio": 1290,
+        "stock": 20,
+        "img": "llaves-allen.jpg"
+    },
+    {
+        "id": 18,
+        "idCategoria": "accesorios",
+        "nombre": "Caramañola 750ml",
+        "marca": "Ziroox",
+        "precio": 1290,
+        "stock": 30,
+        "img": "caramañola.jpg"
+    },
+    {
+        "id": 19,
+        "idCategoria": "accesorios",
+        "nombre": "Porta Caramañola",
+        "marca": "Elite Custom Race",
+        "precio": 4990,
+        "stock": 20,
+        "img": "porta-caramañola.jpg"
+    },
+    {
+        "id": 20,
+        "idCategoria": "bicicletas",
+        "nombre": "Zenith",
+        "marca": "Astra 29 Elite",
+        "precio": 454900,
+        "stock": 8,
+        "img": "zenith-astra.jpg"
+    }
+]

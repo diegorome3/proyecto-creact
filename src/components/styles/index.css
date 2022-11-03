@@ -1,6 +1,13 @@
-/* Estos son los estilos que se implementan en TODOS los codigos del react
-" estilos generales" */
-/* Font family, background color del body, tamaño de imagen,etc */
-body{
-  font-family:'Courier New', Courier, monospace;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
