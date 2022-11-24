@@ -1,0 +1,121 @@
+JS:
+const foo = () => {}
+
+foo()
+
+React:
+
+const Foo = (props) => {
+    return()
+}
+
+1.Todos los componentes son funciones
+2.Todos los componentes se escriben con la inicial en Mayuscula
+3.Todos los componentes deben retornar algo
+4.Todos los componentes deben retornar 1(Un) sólo elemento
+5.Los componentes retornan JSX
+
+JSX -> JavaScript + XML
+
+Como leeria el navegador mi codigo:
+
+JSX -> <div id='contenedor'>Bienvenidos</div>
+
+Como lo lee el navegador -> react.createElement( "div", { id: "contenedor"}, 'Bienvenido')
+
+<></> --> React Fragments.
+
+rafce -> Atajo para crear plantilla de componente 
+
+-> export default importo sin llaves (import Header from './components/Header')
+-> exporto nombrado importo con llaves (import {Header} from './components/Header')
+
+* Sólo puedo tener 1 export default por archivo.
+
+ -- PROPS --
+JAVASCRIPT.
+
+const foo = (a,b) => {
+return a + b
+}
+
+foo(20,5)
+
+     ------------------------
+
+REACT.
+
+const Foo = () => {}
+
+<Foo key={value} />
+
+<Foo/>
+
+EJEMPLOS:
+
+
+//Ej-String-props:
+<Foo nombre='Nahuel' />
+
+//Ej-Numbers-props:
+<Foo numero={20} />
+
+//Ej-objeto-props:
+<Foo objeto={{id:1, nombre:"Nahuel"}} />
+
+//Ej-array-props:
+<Foo listaDelSuper={["Manzana", "Banana"]} />
+
+//EJ-funciones:
+
+const saludar = () => console.log('Bienvenidos')
+
+<Foo saludo={saludar} />
+
+
+-puede enviar:
+Array
+Objetos
+funciones
+booleano
+numbers
+strings (Es el único que puede enviarse sin llaves {})
+componentes
+
+IMG
+- Links desde la web
+<img src="imagendelaweb" alt="descripsion"/>
+
+- Img desde publick: --> siempre poner la ruta como si estuvieramos parados en public
+<img src="logo512.png" alt="" />
+
+- Desde src
+primero importo la imagen donde lo voy a poner 
+EJ:Main.JSX
+import from '.../../img/logo512';
+Luego lo pongo en el codigo Html así:
+<img src={logo} alt="" />
+
+La Logica siempre estará entre "const" y antes de "Return"*
+
+
+Eventos
+-Se escriben con camelCase (TODOS!) y se escriben en la propia etiqueta html.
+
+CADA VEZ QUE HAY A UN CAMBIO DE ESTADO, VAMOS DE UN PROP A UN EVENTO QUE
+ DISPARE UN CAMBIO DE ESTADO O UN CAMBIO DE PROP, SE VOLVERA A RENDERIZAR EL COMPONENTE
+
+Estados:
+
+Hook --> useState() -> [1,2] = useState()
+
+- La primera posicion es mi estado y la segunda la funcion seteadora
+- Dentro de los parentesis puedo poner un valor inicial para que mi estado no arranque en
+undefined
+
+const [state, setState] = useState(0) -> 0 es mi valor inicial.
+
+La única manera que tengo de modificar mi estado es a través de la funcion seteadora.
+setState( state + 10)
+
+React solo modifica el DOM cuando escucha que se emite una funcion seteadora.
