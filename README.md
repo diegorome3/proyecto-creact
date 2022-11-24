@@ -29,7 +29,7 @@ npm start
 ## 1.Como clonar repositorio
 
 ```
-git clone 
+git clone https://github.com/diegorome3/proyecto-creact.git
 ```
 
 ## 2.Instalar las dependencias del proyecto
